@@ -12,7 +12,7 @@ Randomized experiments are the gold standard for causal effect estimation. Howev
 
 ## Approach
 
-We assume only **one-sided transportability**, e.g., only the conditional mean outcome of the controls $$\(\mathbb{E}[Y(0)\mid X, A = 0] \)$$ is shared between the target data and external source data.   
+We assume only **one-sided transportability**, e.g., only the conditional mean outcome of the controls $$\(\mathbb{E}[Y(0)\mid X] \)$$ is shared between the target data and external source data.   
 
 Under such assumptions, we construct **double-robust, cross-fitted estimators** for the average treatment effect (ATE). Our estimator is **semiparametrically efficient**. 
 
