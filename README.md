@@ -1,16 +1,6 @@
-# Shift-Robust Experimentation via Data Fusion (Python)
+# Shift-Robust Data Fusion for Causal Effect Estimation (Python)
 
-> **One-liner:** Borrow strength from external data to **tighten confidence intervals** and **reduce variance** in experiments **under distribution shift**, with **valid uncertainty** and **black-box ML**.
----
-
-## TL;DR (for product & research teams)
-
-**Faster, smaller, safer experiments under shift.**  
-This repo implements **shift-robust semiparametric estimators** that **borrow information from external cohorts** while preserving valid confidence intervals. Built on **double machine learning, orthogonal scores, and cross-fitting**; treats nuisance models as **black boxes** (scikit-learn, XGBoost/LightGBM, PyTorch/JAX, or R via rpy2).
-
-- **Shorter A/B tests:** tighter CIs ⇒ fewer user-days to significance.  
-- **Reuse past experiments / adjacent markets** without biasing lift.  
-- **95% coverage** under stated assumptions + diagnostics for when *not* to borrow.
+> **One-liner:** Fuse external data to **reduce variance** in experiments **under distribution shift**, with **valid uncertainty** and **black-box ML**.
 
 ---
 
@@ -30,4 +20,4 @@ Under such assumptions, we construct **double-robust, cross-fitted estimators** 
 
 - **Faster decision** and **greater effective sample size** (standard error reduction **13.7%** on synthetic data).
 - Safely **fuse external source data** (maintain nominal CI coverage levels).  
-See [`/notebooks`](./notebooks/ate_fusion.ipynb) for reproducible figures.
+See [`/notebooks`](./notebooks/ate_fusion.ipynb) for reproducible results.
